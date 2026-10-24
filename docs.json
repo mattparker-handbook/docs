@@ -1,92 +1,125 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "The Matthew Parker Group",
+  "name": "Matt Parker | Client Handbook",
   "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
+    "primary": "#3CABA7",
+    "light": "#5FC4C0",
+    "dark": "#2E8C88"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Client Mortgage Guide",
+        "tab": "Client Handbook",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Start here",
             "pages": [
+              "index",
               "client-guide/introduction",
               "client-guide/mortgage-process-overview",
               "client-guide/pre-approval-checklist"
             ]
           },
           {
-            "group": "Down Payment & Costs",
+            "group": "Your application portal",
+            "pages": [
+              "portal/start-here",
+              "portal/sign-in",
+              "portal/complete-application",
+              "portal/personal-document-plan",
+              "portal/upload-documents",
+              "portal/document-status",
+              "portal/joint-applicants",
+              "portal/consent-privacy"
+            ]
+          },
+          {
+            "group": "Down payment & costs",
             "pages": [
               "client-guide/down-payment-sources",
-              "client-guide/bc-closing-costs",
+              "client-guide/first-time-buyer-programs",
               "client-guide/property-transfer-tax",
-              "client-guide/first-time-buyer-programs"
+              "documents/fhsa-first-home",
+              "documents/gifted-down-payment-guide"
             ]
           },
           {
-            "group": "Mortgage Basics",
+            "group": "Planning your purchase",
             "pages": [
-              "client-guide/fixed-vs-variable",
+              "purchase/your-homebuying-team",
+              "purchase/buying-and-selling-together",
+              "purchase/bridge-financing-explained",
+              "purchase/moving-checklist"
+            ]
+          },
+          {
+            "group": "Mortgage options & credit",
+            "pages": [
+              "options-credit/fixed-vs-variable-guide",
               "client-guide/amortization-terms",
-              "client-guide/stress-test-explained"
+              "client-guide/stress-test-explained",
+              "options-credit/five-cs-of-credit",
+              "options-credit/credit-score-guide",
+              "options-credit/co-signing-a-mortgage",
+              "options-credit/monoline-lenders-explained"
+            ]
+          },
+          {
+            "group": "Closing & protecting your home",
+            "pages": [
+              "closing/closing-costs-bc",
+              "closing/before-your-mortgage-funds",
+              "closing/insurance-for-your-home",
+              "closing/title-insurance-explained"
             ]
           }
         ]
       },
       {
-        "tab": "Referral Partner Portal",
+        "tab": "Document Guides",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Start here",
             "pages": [
-              "partners/overview",
-              "partners/how-referrals-work"
+              "documents/mortgage-document-checklist"
             ]
           },
           {
-            "group": "Qualification Tools",
+            "group": "Income & tax",
             "pages": [
-              "partners/qualification-matrix",
-              "partners/gds-tds-cheat-sheet",
-              "partners/income-types-guide"
+              "documents/cra-notice-of-assessment",
+              "documents/complete-t1-tax-return",
+              "documents/t4-t4a-tax-slips",
+              "documents/cra-proof-of-income-statement",
+              "documents/cra-current-tax-balance",
+              "documents/employment-letter",
+              "documents/pay-stubs"
             ]
           },
           {
-            "group": "Complex Deals",
+            "group": "Self-employed & rental",
             "pages": [
-              "partners/self-employed-guidelines",
-              "partners/rental-portfolio-structuring",
-              "partners/new-to-canada"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Lender Policy Matrix",
-        "groups": [
-          {
-            "group": "Lender Landscape",
-            "pages": [
-              "lenders/overview",
-              "lenders/big-banks",
-              "lenders/monoline-lenders",
-              "lenders/bc-credit-unions"
+              "documents/self-employed-income-documents",
+              "documents/rental-income-documents"
             ]
           },
           {
-            "group": "Key Policy Areas",
+            "group": "Down payment & assets",
             "pages": [
-              "lenders/prepayment-penalties",
-              "lenders/porting-and-assumption",
-              "lenders/heloc-structures",
-              "lenders/policy-comparison-table"
+              "documents/down-payment-bank-statements",
+              "documents/rrsp-fhsa-withdrawal-documents"
+            ]
+          },
+          {
+            "group": "Property & closing",
+            "pages": [
+              "documents/purchase-contract-amendments",
+              "documents/strata-condo-document-package",
+              "documents/property-tax-documents",
+              "documents/mortgage-heloc-statements",
+              "documents/void-cheque-direct-deposit"
             ]
           }
         ]
@@ -95,7 +128,7 @@
         "tab": "Mortgage Management",
         "groups": [
           {
-            "group": "Renewals & Refinancing",
+            "group": "Renewals & refinancing",
             "pages": [
               "management/renewal-guide",
               "management/refinancing-options",
@@ -103,7 +136,7 @@
             ]
           },
           {
-            "group": "Rate & Payment Changes",
+            "group": "Rate & payment changes",
             "pages": [
               "management/fixed-vs-variable-switch",
               "management/prepayment-privileges",
@@ -119,20 +152,99 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Rewards",
+        "groups": [
+          {
+            "group": "How it works",
+            "pages": [
+              "rewards/how-matts-mortgage-money-works",
+              "rewards/earning-points",
+              "rewards/milestone-bonuses",
+              "rewards/the-birthday-bonus"
+            ]
+          },
+          {
+            "group": "Draw & redemptions",
+            "pages": [
+              "rewards/the-monthly-100-draw",
+              "rewards/redeeming-your-points"
+            ]
+          },
+          {
+            "group": "Your account",
+            "pages": [
+              "rewards/your-account-amp-profile",
+              "rewards/for-referral-partners-tracking-your-deals"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Referral Partners",
+        "groups": [
+          {
+            "group": "Working together",
+            "pages": [
+              "partners/overview",
+              "partners/how-referrals-work"
+            ]
+          },
+          {
+            "group": "Qualification tools",
+            "pages": [
+              "partners/qualification-matrix",
+              "partners/gds-tds-cheat-sheet",
+              "partners/income-types-guide"
+            ]
+          },
+          {
+            "group": "Complex deals",
+            "pages": [
+              "partners/self-employed-guidelines",
+              "partners/rental-portfolio-structuring",
+              "partners/new-to-canada"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Lender Policies",
+        "groups": [
+          {
+            "group": "Lender landscape",
+            "pages": [
+              "lenders/overview",
+              "lenders/big-banks",
+              "lenders/monoline-lenders",
+              "lenders/bc-credit-unions"
+            ]
+          },
+          {
+            "group": "Key policy areas",
+            "pages": [
+              "lenders/prepayment-penalties",
+              "lenders/porting-and-assumption",
+              "lenders/heloc-structures",
+              "lenders/policy-comparison-table"
+            ]
+          }
+        ]
       }
     ]
   },
   "navbar": {
     "links": [
       {
-        "label": "Contact Us",
+        "label": "Email Matt",
         "href": "mailto:matt.parker@indimortgage.ca"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Get Pre-Approved",
-      "href": "https://matthewparkergroup.ca"
+      "label": "Rewards Portal",
+      "href": "https://rewards.mattparker.ca"
     }
   },
   "footer": {
@@ -144,5 +256,15 @@
     "light": "/images/HorizontalCropped.png",
     "dark": "/images/2copy.png",
     "href": "https://www.mattparker.ca/"
-  }
+  },
+  "redirects": [
+    {
+      "source": "/client-guide/bc-closing-costs",
+      "destination": "/closing/closing-costs-bc"
+    },
+    {
+      "source": "/client-guide/fixed-vs-variable",
+      "destination": "/options-credit/fixed-vs-variable-guide"
+    }
+  ]
 }
