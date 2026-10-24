@@ -1,0 +1,148 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "The Matthew Parker Group",
+  "colors": {
+    "primary": "#ef7025",
+    "light": "#eec9bc",
+    "dark": "#4fa1ab"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Client Mortgage Guide",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "client-guide/introduction",
+              "client-guide/mortgage-process-overview",
+              "client-guide/pre-approval-checklist"
+            ]
+          },
+          {
+            "group": "Down Payment & Costs",
+            "pages": [
+              "client-guide/down-payment-sources",
+              "client-guide/bc-closing-costs",
+              "client-guide/property-transfer-tax",
+              "client-guide/first-time-buyer-programs"
+            ]
+          },
+          {
+            "group": "Mortgage Basics",
+            "pages": [
+              "client-guide/fixed-vs-variable",
+              "client-guide/amortization-terms",
+              "client-guide/stress-test-explained"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Referral Partner Portal",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "partners/overview",
+              "partners/how-referrals-work"
+            ]
+          },
+          {
+            "group": "Qualification Tools",
+            "pages": [
+              "partners/qualification-matrix",
+              "partners/gds-tds-cheat-sheet",
+              "partners/income-types-guide"
+            ]
+          },
+          {
+            "group": "Complex Deals",
+            "pages": [
+              "partners/self-employed-guidelines",
+              "partners/rental-portfolio-structuring",
+              "partners/new-to-canada"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Lender Policy Matrix",
+        "groups": [
+          {
+            "group": "Lender Landscape",
+            "pages": [
+              "lenders/overview",
+              "lenders/big-banks",
+              "lenders/monoline-lenders",
+              "lenders/bc-credit-unions"
+            ]
+          },
+          {
+            "group": "Key Policy Areas",
+            "pages": [
+              "lenders/prepayment-penalties",
+              "lenders/porting-and-assumption",
+              "lenders/heloc-structures",
+              "lenders/policy-comparison-table"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Mortgage Management",
+        "groups": [
+          {
+            "group": "Renewals & Refinancing",
+            "pages": [
+              "management/renewal-guide",
+              "management/refinancing-options",
+              "management/equity-takeout"
+            ]
+          },
+          {
+            "group": "Rate & Payment Changes",
+            "pages": [
+              "management/fixed-vs-variable-switch",
+              "management/prepayment-privileges",
+              "management/payment-frequency"
+            ]
+          },
+          {
+            "group": "FAQ",
+            "pages": [
+              "management/faq-renewals",
+              "management/faq-refinancing",
+              "management/faq-general"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Contact Us",
+        "href": "mailto:matt.parker@indimortgage.ca"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Pre-Approved",
+      "href": "https://matthewparkergroup.ca"
+    }
+  },
+  "footer": {
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/matthewparkerca"
+    }
+  },
+  "logo": {
+    "light": "/images/HorizontalCropped.png",
+    "dark": "/images/2copy.png",
+    "href": "https://www.mattparker.ca/"
+  }
+}
