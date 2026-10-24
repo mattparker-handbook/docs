@@ -253,8 +253,8 @@
     }
   },
   "logo": {
-    "light": "/images/HorizontalCropped.png",
-    "dark": "/images/2copy.png",
+    "light": "/images/logo-light.png",
+    "dark": "/images/logo-dark.png",
     "href": "https://www.mattparker.ca/"
   },
   "redirects": [
